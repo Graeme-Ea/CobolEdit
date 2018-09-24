@@ -1,2 +1,2 @@
 # CobolEdit
-An editor specially for Cobol to reduce sysntax errors
+An editor specially for Cobol to reduce syntax errors
