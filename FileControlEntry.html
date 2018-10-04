@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Main Page</title>
+    </head>
+    <body>
+        <div style="float: left;">
+            <table>
+                <tr>
+                    <td>Program Name </td>
+                    <td>
+                        <input type="text" name="txtProgamName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>File Name</td>
+                    <td>
+                        <input type="text" name="txtFileName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>File type</td>
+                    <td>
+                        <select name="selFileType">
+                            <option value="sequential">Sequential</option>
+                            <option value="indexed">Indexed</option>
+                            <option value="relative">Relative</option>
+                            <option value="sort">Sort</option>
+                            <option value="merge">Merge</option>
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="chkExtDynamic1" value="external"> External/Dyanmic
+                    </td>
+                </tr>
+                <tr>
+                    <td>                    
+                        <input type="checkbox" name="chkExtDynamic2" value="external"> External/Dynamic
+                    </td>
+                </tr>
+                    <td>
+                        <button type="button" name="btnFileDetails">File Details</button>    
+                    </td>
+                <tr>
+                <tr>
+                    <td>
+                        <button type="button" name="btnFileDisplay">File Display</button>    
+                    </td>
+                </tr>
+                <tr>
+                    <td>From </td>
+                    <td>
+                        <input type="text" name="txtFrom">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Reserve</td>
+                    <td>
+                        <input type="text" name="txtReserve">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" name="btnAccessMode">Access Mode</button>    
+                    </td>
+                </tr>
+                <tr>
+                    <td>Record Key </td>
+                    <td>
+                        <input type="text" name="txtRecordKey">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="chkDuplicates" value="noDuplicates"> with duplicates                      
+                    </td>
+                </tr>
+                <tr>
+                    <td>File Status </td>
+                    <td>
+                        <input type="text" name="txtFileStatus">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button">Save</button>
+                    </td>
+                    <td>
+                        <button type="button">Delete</button>
+                    </td>   
+                    <td>
+                        <button type="button">Close</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="width: 300px;
+                    float: inherit;">
+            <table>
+                <tr>
+                    <td>Files</td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea name="txaFileNames"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" name="btnAdd">Add</button>
+                    </td>
+                    <td>
+                        <button type="button" name="btnDelete">Delete</button>
+                    </td>   
+                    <td>
+                        <button type="button" name="btnDeleteAll">Delete All</button>
+                    </td>
+                </tr>
+            </table>
+            <select style="width: 200px;"">
+            </select>
+        </div>
+        <div style="width: 400px;
+                    float: right;">
+            <textarea></textarea>
+        </div>
+
+    </body>
+</html>
